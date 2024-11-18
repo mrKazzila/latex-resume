@@ -3,24 +3,21 @@ version: '3'
 services:
   latex:
     container_name: latex2pdf
+    image: texlive/texlive:latest-full
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
       - ../resume:/data
       - ../output:/output
-    command: bash -c "find /data -name '*.tex' -exec latexindent -w -no-backup {} + && find /data -name '*.tex' -exec
-      pdflatex -output-directory=/output {} +"
+    command: bash -c "pdflatex -output-directory=/output main.tex"
 
   chktex:
-    container_name: chktex
+    container_name: linter-chktex
+    image: texlive/texlive:latest-full
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
       - ../resume:/data
       - ../output:/output
-    command: bash -c "
-      chktex -v /data/main.tex > /output/chktex_output.log 2>&1 && \
-      echo 'chktex completed. Check /output/chktex_output.log for details.'"
-
