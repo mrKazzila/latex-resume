@@ -64,13 +64,13 @@
 }
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
-\newcommand{\resumeSkills}[4]{  % Команда для списка навыков, добавлена ясность
+\newcommand{\resumeSkills}[4]{
     \item\small{
         {#1 #2 #3 #4 \vspace{-2pt}}
   }
 }
 
-\newcommand{\resumeExperience}[4]{  % Команда для опыта работы с дополнительной ясностью
+\newcommand{\resumeExperience}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textbf{\small #2} \\
@@ -78,14 +78,14 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeEducation}[2]{  % Команда для образовательной информации
+\newcommand{\resumeEducation}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeProject}[2]{  % Команда для проектов
+\newcommand{\resumeProject}[2]{
     \item
     \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & \textbf{\small #2}\\
@@ -94,9 +94,9 @@
 
 % ITEMIZE ENVIRONMENT FOR RESUME SECTIONS
 \newcommand{\resumeListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
-\newcommand{\resumeListEnd}{\end{itemize}}  % Упрощение имени
+\newcommand{\resumeListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}  % Упрощение имени
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 % BULLET POINTS CUSTOMIZATION
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
