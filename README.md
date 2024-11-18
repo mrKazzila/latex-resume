@@ -32,12 +32,42 @@ The original template is licensed under [MIT License](https://github.com/jakegut
 ## Description
 Yet another simple, clean and ATS friendly resume template with module structure.
 Also available local building from tex to pdf use docker 
-and simple CI pipline which build pdf on github actions 
-
-A local build with docker and a simple CI for creating PDFs based on github actions 
-are available in the Github repository by link https://github.com/mrKazzila/latex_resume_template.
+and simple CI pipline which build pdf on github actions.
 
 ## Local build
+Show available just commands
+```bash
+just help
+```
+
+<details>
+<summary>Useful commands</summary>
+
+Build images
+```bash
+just build
+```
+
+Convert .tex to pdf
+```bash
+just run
+```
+
+Formatting .tex files and build pdf
+```bash
+just run-format
+```
+
+Remove all .bak files
+```bash
+just remove-bak
+```
+
+Run LaTeX linter
+```bash
+just run-linter
+```
+</details>
 
 
 ## Preview
