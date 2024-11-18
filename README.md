@@ -19,23 +19,23 @@
 - [+] Some info about template
 - [ ] Fill in README sections
 - [ ] Add preview image
-- [ ] Add just commands
-- [ ] Add help command for justfile
+- [+] Add just commands
+- [+] Add help command for justfile
 - [+] Add CI for building pdf
 
 
 ## Note
-### Reworked resume template
-This LaTeX summary template is a reworked version of [source-project](#source-project).
-
-### Source project
-The original version of the template was developed by [Jake Gutierrez](https://github.com/jakegut),
-and is available on GitHub by [link](https://github.com/jakegut/resume).
-
+This LaTeX template is a reworked version of [Jake Gutierrez](https://github.com/jakegut) 
+template which available on GitHub by [link](https://github.com/jakegut/resume).
 The original template is licensed under [MIT License](https://github.com/jakegut/resume/blob/master/LICENSE).
 
 ## Description
+Yet another simple, clean and ATS friendly resume template with module structure.
+Also available local building from tex to pdf use docker 
+and simple CI pipline which build pdf on github actions 
 
+A local build with docker and a simple CI for creating PDFs based on github actions 
+are available in the Github repository by link https://github.com/mrKazzila/latex_resume_template.
 
 ## Local build
 
