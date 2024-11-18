@@ -16,12 +16,12 @@
 
 ### TODO (before publish):
 
-- [ ] Some info about template
+- [+] Some info about template
 - [ ] Fill in README sections
 - [ ] Add preview image
 - [ ] Add just commands
 - [ ] Add help command for justfile
-- [ ] Add CI for building pdf
+- [+] Add CI for building pdf
 
 
 ## Note
