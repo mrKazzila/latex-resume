@@ -1,3 +1,11 @@
+# ===== local environment =====
 .git
 .idea
-output
+.DS_Store
+
+# ===== special for project =====
+/output/*
+*bak*
+*.log
+*.out
+*.aux
