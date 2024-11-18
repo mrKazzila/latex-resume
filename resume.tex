@@ -1,0 +1,29 @@
+\documentclass[letterpaper,11pt]{article}
+
+% Use the custom style package
+\usepackage{latex-resume}
+
+
+% ======================
+% ==== Start resume ====
+% ======================
+\begin{document}
+\import{sections/header.tex}\label{sec:header}
+
+\vspace*{4pt}
+
+\section{Summary}\label{sec:about}
+\vspace*{4pt}
+\import{sections/}{about}
+\vspace*{2pt}
+
+\section{Skills}\label{sec:skills}
+\vspace*{4pt}
+\import{sections/}{skills}
+\vspace*{2pt}
+
+\section{Experience}\label{sec:experience}
+\vspace*{8pt}
+\import{sections/}{experience}
+
+\end{document}
