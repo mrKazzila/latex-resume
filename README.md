@@ -27,17 +27,18 @@
 
 
 ## Note
-This LaTeX template is a reworked version of [Jake Gutierrez](https://github.com/jakegut) 
-template which available on GitHub by [link](https://github.com/jakegut/resume).
-The original template is licensed under [MIT License](https://github.com/jakegut/resume/blob/master/LICENSE).
+This LaTeX template is a reworked version of the template by [Jake Gutierrez](https://github.com/jakegut), 
+which is available on GitHub via [this link](https://github.com/jakegut/resume). 
+The original template is licensed under the [MIT License](https://github.com/jakegut/resume/blob/master/LICENSE).
 
 ## Description
-Yet another simple, clean and ATS friendly resume template with module structure.
-Also available local building from tex to pdf use docker 
-and simple CI pipline which build pdf on github actions.
+Yet another simple, clean, and ATS-friendly resume template with a modular structure.
+It also supports local building of the PDF from `.tex` files using Docker,
+and includes a simple CI pipeline that builds the PDF using GitHub Actions.
+
 
 ## Local build
-Show available just commands
+To see available `just` commands, run:
 ```bash
 just help
 ```
@@ -45,27 +46,27 @@ just help
 <details>
 <summary>Useful commands</summary>
 
-Build images
+Build the image:
 ```bash
 just build
 ```
 
-Convert .tex to pdf
+Convert `.tex` to `.pdf`:
 ```bash
 just run
 ```
 
-Formatting .tex files and build pdf
+Format `.tex` files and build the PDF:
 ```bash
 just run-format
 ```
 
-Remove all .bak files
+Remove all `.bak` files:
 ```bash
 just remove-bak
 ```
 
-Run LaTeX linter
+Run LaTeX linter:
 ```bash
 just run-linter
 ```
@@ -75,7 +76,7 @@ just run-linter
 ## Preview
 
 ## License
-This project is licensed under the MIT License. For more details see file [LICENSE](./LICENSE).
+This project is licensed under the MIT License. For more details, see the [LICENSE](./LICENSE) file.
 
 <br>
 <p align="center">
