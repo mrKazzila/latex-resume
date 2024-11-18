@@ -7,4 +7,4 @@ FROM texlive_base as texlive_build
 
 WORKDIR /data
 
-COPY . /data
+COPY .. /data

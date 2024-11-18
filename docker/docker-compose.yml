@@ -4,7 +4,7 @@ services:
   latex:
     container_name: latex2pdf
     build:
-      context: .
+      context: ..
       dockerfile: Dockerfile
     volumes:
       - ./eng_resume:/data
@@ -15,12 +15,12 @@ services:
   chktex:
     container_name: chktex
     build:
-      context: .
+      context: ..
       dockerfile: Dockerfile
     volumes:
       - ./eng_resume:/data
       - ./output:/output
     command: bash -c "
-      chktex -v /data/resume.tex > /output/chktex_output.log 2>&1 && \
+      chktex -v /data/main.tex > /output/chktex_output.log 2>&1 && \
       echo 'chktex completed. Check /output/chktex_output.log for details.'"
 
