@@ -26,6 +26,9 @@ jobs:
           pdflatex -interaction=nonstopmode -halt-on-error -jobname=resume resume.tex
         working-directory: ./resume
 
+      - name: List files in the directory
+        run: ls -l ./resume
+
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
