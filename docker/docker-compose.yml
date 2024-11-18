@@ -4,22 +4,22 @@ services:
   latex:
     container_name: latex2pdf
     build:
-      context: ..
+      context: .
       dockerfile: Dockerfile
     volumes:
-      - ./eng_resume:/data
-      - ./output:/output
+      - ../resume:/data
+      - ../output:/output
     command: bash -c "find /data -name '*.tex' -exec latexindent -w -no-backup {} + && find /data -name '*.tex' -exec
       pdflatex -output-directory=/output {} +"
 
   chktex:
     container_name: chktex
     build:
-      context: ..
+      context: .
       dockerfile: Dockerfile
     volumes:
-      - ./eng_resume:/data
-      - ./output:/output
+      - ../resume:/data
+      - ../output:/output
     command: bash -c "
       chktex -v /data/main.tex > /output/chktex_output.log 2>&1 && \
       echo 'chktex completed. Check /output/chktex_output.log for details.'"
