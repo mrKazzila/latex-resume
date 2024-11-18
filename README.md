@@ -16,11 +16,11 @@
 
 ### TODO (before publish):
 
-- [x] Some info about template
 - [ ] Fill in README sections
 - [ ] Add preview image
 - [ ] Add new sections in resume (education, projects)
 - [ ] Add fake data in resume
+- [x] Some info about template
 - [x] Add just commands
 - [x] Add help command for justfile
 - [x] Add CI for building pdf
