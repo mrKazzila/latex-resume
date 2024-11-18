@@ -1,4 +1,4 @@
-FROM texlive/texlive:2024 as texlive_base
+FROM texlive/texlive as texlive_base
 
 RUN apt-get update && \
     apt-get install -y chktex
