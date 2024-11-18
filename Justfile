@@ -1,9 +1,13 @@
 #!/usr/bin/env just --justfile
 
 # ===== Base variables =====
-PROJECT_NAME := "resume"
+PROJECT_NAME := "latex_resume"
 DC := "docker-compose"
-DC_FILE := "docker-compose.yml"
+DC_FILE := "docker/docker-compose.yml"
+
+
+help:
+    @echo "[j] Help info"
 
 
 # ===== Docker automation =====
