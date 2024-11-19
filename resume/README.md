@@ -1,10 +1,10 @@
 ## Note
-This LaTeX template is a reworked version of [Jake Gutierrez](https://github.com/jakegut) 
-template which available on GitHub by [link](https://github.com/jakegut/resume).
-The original template is licensed under [MIT License](https://github.com/jakegut/resume/blob/master/LICENSE).
+This LaTeX template is a reworked version of the template by [Jake Gutierrez](https://github.com/jakegut), 
+which is available on GitHub via [this link](https://github.com/jakegut/resume). 
+The original template is licensed under the [MIT License](https://github.com/jakegut/resume/blob/master/LICENSE).
 
 ## About
-Yet another simple, clean and ATS friendly resume template with module structure.
-
-A local build with docker and a simple CI for creating PDFs based on github actions 
-are available in the Github repository by link https://github.com/mrKazzila/latex_resume_template.
+Yet another simple, clean, and ATS-friendly resume template with a modular structure.
+It also supports local building of the PDF from `.tex` files using Docker,
+and includes a simple CI pipeline that builds the PDF using GitHub Actions.
+[Repository](https://github.com/mrKazzila/latex_resume_template)

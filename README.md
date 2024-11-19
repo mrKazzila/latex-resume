@@ -7,24 +7,11 @@
 <p align="center">
   <a href="#">Overleaf</a> •
   <a href="#note">Note</a> •
-  <a href="#about">About</a> •
   <a href="#description">Description</a> •
   <a href="#local-build">Local build</a> •
   <a href="#preview">Preview</a> •
   <a href="#license">License</a>
 </p>
-
-### TODO (before publish):
-
-- [ ] Fill in README sections
-- [ ] Add preview image
-- [ ] Add new sections in resume (education, projects)
-- [ ] Add fake data in resume
-- [x] Some info about template
-- [x] Add just commands
-- [x] Add help command for justfile
-- [x] Add CI for building pdf
-
 
 ## Note
 This LaTeX template is a reworked version of the template by [Jake Gutierrez](https://github.com/jakegut), 
@@ -72,8 +59,8 @@ just run-linter
 ```
 </details>
 
-
 ## Preview
+![alt tag](resume/example.png)
 
 ## License
 This project is licensed under the MIT License. For more details, see the [LICENSE](./LICENSE) file.
@@ -81,6 +68,6 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 <br>
 <p align="center">
   <a href="https://github.com/mrKazzila">GitHub</a> •
-  <a href="https://mrkazzila.github.io/resume/">Resume</a> •
+  <a href="https://mrkazzila.com">Resume</a> •
   <a href="https://www.linkedin.com/in/i-kazakov/">LinkedIn</a>
 </p>
