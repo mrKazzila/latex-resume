@@ -7,10 +7,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    command: bash -c "pdflatex -output-directory=/output main.tex"
     volumes:
       - ../resume:/data
       - ../output:/output
-    command: bash -c "pdflatex -output-directory=/output main.tex"
 
   chktex:
     container_name: linter-chktex
