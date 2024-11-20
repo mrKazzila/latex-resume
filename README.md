@@ -1,12 +1,7 @@
-<div align="center">
-  <a href="https://github.com/mrkazzila/latex-resume">
-    <img src="https://raw.githubusercontent.com/mrKazzila/latex-resume/refs/heads/main/resume/latex-resume-example.png"
-    alt="Resume template" height="80">
-  </a>
-    <h1 align="center">
-      LaTeX resume template
-    </h1>
-</div>
+<h1 align="center">
+  LaTeX resume template
+</h1>
+
 
 <hr>
 
