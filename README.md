@@ -60,7 +60,7 @@ just run-linter
 </details>
 
 ## Preview
-![alt tag](resume/example.png)
+![Latex resume example png](resume/latex-resume-example.png)
 
 ## License
 This project is licensed under the MIT License. For more details, see the [LICENSE](./LICENSE) file.

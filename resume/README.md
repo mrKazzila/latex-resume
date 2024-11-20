@@ -8,4 +8,4 @@ Yet another simple, clean, and ATS-friendly resume template with a modular struc
 It also supports local building of the PDF from `.tex` files using Docker,
 and includes a simple CI pipeline that builds the PDF using GitHub Actions.
 
-[Repository](https://github.com/mrKazzila/latex_resume_template)
+[Repository](https://github.com/mrKazzila/latex-resume)
